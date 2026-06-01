@@ -42,11 +42,5 @@ public class StudentService {
         repository.deleteById(id);
     }
 
-    // ✅ Pagination + Sorting
-    public Page<Student> getAllStudents(int page, int size, String sortBy) {
 
-        Pageable pageable = PageRequest.of(page, size, Sort.by(sortBy));
-
-        return repository.findAll(pageable);
-    }
 }
