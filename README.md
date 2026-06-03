@@ -6,7 +6,6 @@ A secure and scalable Student Management System REST API built with Spring Boot,
 - Security: Spring Security + JWT (jjwt)
 - Database: MySQL
 - ORM: Spring Data JPA / Hibernate
-- 
 ## Features
 
 ### Authentication
