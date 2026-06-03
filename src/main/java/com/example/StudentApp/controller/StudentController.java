@@ -41,5 +41,12 @@ public class StudentController {
         service.deleteStudent(id);
         return "Student deleted successfully";
     }
-
+    @GetMapping("/search/name")
+    public List<Student> searchByName(@RequestParam String name) {
+        return service.searchByName(name);
+    }
+    @GetMapping("/search/department")
+    public List<Student> searchByDepartment(@RequestParam String department) {
+        return service.searchByDepartment(department);
+    }
 }
