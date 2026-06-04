@@ -21,9 +21,7 @@ A secure and scalable Student Management System REST API built with Spring Boot,
 - Search by Department (case-insensitive)
 ### Security
 - JWT-based stateless authentication
-- Spring Security configured with:
-- CSRF disabled
-- Session management: STATELESS
+- Spring Security configured
 - Protected endpoints require valid JWT token
 - Public endpoints: /api/auth/**
 ###  Exception Handling
